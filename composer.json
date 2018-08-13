@@ -1,0 +1,30 @@
+{
+    "name": "wucdbm/credit-card-guesser",
+    "type": "library",
+    "description": "A yet another credit card type guesser",
+    "keywords": ["credit card type", "card type guesser", "guess card type"],
+    "authors": [
+        {
+            "name": "Martin Kirilov",
+            "email": "wucdbm@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.8",
+        "wucdbm/php-cs-fixers": "^0.3.0"
+    },
+    "autoload": {
+        "psr-4": { "Wucdbm\\CreditCardGuesser\\": "src" }
+    },
+    "config": {
+        "bin-dir": "bin",
+        "platform": {
+            "php": "7.1.3"
+        }
+    },
+    "license": "MIT"
+}
