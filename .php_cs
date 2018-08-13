@@ -3,7 +3,7 @@
 use Wucdbm\PhpCsFixer\Config\ConfigFactory;
 
 $copyright = <<<COMMENT
-This file is part of the ForciStaticDataBundle package.
+This file is part of the wucdbm/credit-card-guesser package.
 
 Copyright (c) Martin Kirilov <martin@forci.com>
 
